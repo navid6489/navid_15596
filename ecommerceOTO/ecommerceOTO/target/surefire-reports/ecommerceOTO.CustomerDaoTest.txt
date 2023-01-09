@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ecommerceOTO.CustomerDaoTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 4, Time elapsed: 1.405 s <<< FAILURE! - in ecommerceOTO.CustomerDaoTest
+testcreate  Time elapsed: 1.385 s  <<< ERROR!
+org.hibernate.MappingException: Could not determine type for: ecommerceOTO.model.Product, at table: OrderItem, for columns: [org.hibernate.mapping.Column(product)]
+	at ecommerceOTO.CustomerDaoTest.testcreate(CustomerDaoTest.java:24)
+
